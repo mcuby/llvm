@@ -290,6 +290,7 @@ set(LLVM_ALL_TARGETS
   WebAssembly
   X86
   XCore
+  ShuraCore
   )
 
 # List of targets with JIT support:

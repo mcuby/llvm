@@ -1,3 +1,4 @@
+
 ;===- ./lib/Target/LLVMBuild.txt -------------------------------*- Conf -*--===;
 ;
 ;                     The LLVM Compiler Infrastructure
@@ -33,6 +34,7 @@ subdirectories =
  Nios2
  PowerPC
  RISCV
+ ShuraCore
  Sparc
  SystemZ
  WebAssembly
