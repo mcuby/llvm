@@ -71,7 +71,7 @@ StringRef Triple::getArchTypeName(ArchType Kind) {
   case wasm64:         return "wasm64";
   case renderscript32: return "renderscript32";
   case renderscript64: return "renderscript64";
-  case shuracore:      return "shuracore"
+  case shuracore:      return "shuracore";
   }
 
   llvm_unreachable("Invalid ArchType!");
@@ -1298,7 +1298,6 @@ Triple Triple::get32BitArchVariant() const {
   case Triple::msp430:
   case Triple::systemz:
   case Triple::ppc64le:
-  case Triple::shuracore:
     T.setArch(UnknownArch);
     break;
 
